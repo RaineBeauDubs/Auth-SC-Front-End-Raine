@@ -1,0 +1,51 @@
+/* GENERAL STYLES */
+
+.App {
+  text-align: center;
+  background: rgb(194, 193, 193);
+  height: 100vh;
+}
+
+/* NAV STYLES */
+
+nav {
+  background: navy;
+  color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 5px 25px;
+  font-weight: bold;
+}
+
+/* LOGIN STYLES */
+
+
+.LSForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.LSInput {
+  margin: 10px 400px;
+  height: 25px;
+}
+
+.LSButton {
+  margin: 10px 550px;
+  height: 25px;
+  color: white;
+  background: navy;
+}
+
+li {
+  margin: 10px 100px;
+  list-style: none;
+  color: white;
+  background: navy;
+  font-size: 20px;
+  padding: 10px;
+}
