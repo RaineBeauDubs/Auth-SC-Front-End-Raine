@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, NavLink, withRouter } from 'react-router-dom';
 import './App.css';
 import Login from './login/Login';
+import Jokes from './jokes/Jokes';
 
 class App extends Component {
   render() {
@@ -10,15 +11,17 @@ class App extends Component {
         <header>
           <nav>
             <NavLink to='/login'>Log-In</NavLink>
+            <NavLink to='/jokes'>Jokes</NavLink>
           </nav>
         </header>
         <h2>Welcome to Jokes!</h2>
         <main>
           <Route path='/login' component={Login} />
+          <Route path='/jokes' component={Jokes} />
         </main>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
