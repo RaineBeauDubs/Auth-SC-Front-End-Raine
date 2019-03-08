@@ -17,10 +17,10 @@ class App extends Component {
       <div className="App">
         <header>
           <nav>
-            <NavLink to='/register'>Sign-Up</NavLink>
-            <NavLink to='/login'>Log-In</NavLink>
-            <NavLink to='/jokes'>See Jokes</NavLink>
-            <button onClick={this.logout}>Log-Out</button>
+            <NavLink className="link" to='/register'>Sign-Up</NavLink>
+            <NavLink className="link" to='/login'>Log-In</NavLink>
+            <NavLink className="link" to='/jokes'>See Jokes</NavLink>
+            <p className="link" onClick={this.logout}>Log-Out</p>
           </nav>
         </header>
         <h2>Welcome to Jokes!</h2>
